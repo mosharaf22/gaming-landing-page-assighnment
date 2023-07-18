@@ -95,6 +95,7 @@ nav li{
     font-weight: 500;
     text-transform: lowercase;
     margin-top: 24px;
+    justify-content: center;
 }
 .btn-primary-1{
     color: #FFF;
@@ -105,7 +106,7 @@ nav li{
     background: #FF42A5;
     padding: 21px 40px;
     border: none;
-
+    margin-right: 24px;
 }
 .btn-primary-2{
     color: #FFF;
@@ -125,3 +126,42 @@ nav li{
 }
 /* head section finished */
 /* main section start */
+
+.funny-videos{
+    margin: 120px 240px;
+    max-width: 1160px;
+    min-height: 500px;
+}
+.funny-videos h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-videos p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.download{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.download img{
+    width: 260px;
+}
+.play-games{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+}
+.play-games p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* section 1 finished */
+/* section 2 start */
+
