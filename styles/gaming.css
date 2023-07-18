@@ -165,3 +165,43 @@ nav li{
 /* section 1 finished */
 /* section 2 start */
 
+.play{
+    max-width: 1160px;
+    min-height: 600px;
+    margin: 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 270px;
+}
+.play-container{
+    width: 50%;
+}
+.play-instantly{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-games{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.play-images {
+    width: 50%;
+    position: relative;
+}
+.play-images img {
+    width: 100%;
+}
+.play-images2 img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: -50px;
+    top: 250px;
+}
+/* section 2 finished */
+/* section 3 starting */
