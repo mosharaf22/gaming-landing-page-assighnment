@@ -144,23 +144,24 @@ nav li{
     font-size: 18px;
     font-weight: 400;
 }
+.video{
+    display: flex;
+    justify-content: center;
+}
 .download{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    gap: 10px;
 }
 .download img{
-    width: 260px;
+    width: 250px;
 }
-.play-gamer{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 24px;
-}
+
 .play-gamer p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+    width: 200px;
 }
 /* section 1 finished */
 /* section 2 start */
@@ -293,12 +294,14 @@ footer{
 /* mobile device */
 /* header section started */
 @media screen and (max-width: 576px){
-    .nav-continer, .about{
+    .nav-continer, .about, .video{
         flex-direction: column;
     }
     .about, .nav-continer{
         gap: 10px;
         padding: 0px 120px;
+        /* justify-content: center; */
+        align-items: center;
 
     }
     .header-container{
@@ -322,5 +325,17 @@ footer{
         padding: 10px 5px;
         
     }
-    /* header section responsive finished */
+
+    .funny-videos{
+        margin-right: -50px;
+        font-size: 48px;
+        margin-left: 10px;
+        margin-top: 60px;
+        margin-bottom: 2px;
+    }
+
+    .video{
+        margin: 0px 120px;
+    }
+    
 }
