@@ -144,7 +144,7 @@ nav li{
     font-size: 18px;
     font-weight: 400;
 }
-.video{
+.gaming{
     display: flex;
     justify-content: center;
 }
@@ -162,6 +162,37 @@ nav li{
     font-size: 20px;
     font-weight: 500;
     width: 200px;
+}
+.breaking{
+    position: relative;
+}
+.image{
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+.overlay p, .overlay i{
+    color: #FFF;
+    font-size: 20px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 76%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 1s;
+}
+.overlay:hover {
+    opacity: 1;
+    border: 2px solid #F948B2;
+    border-radius: 15px;
 }
 /* section 1 finished */
 /* section 2 start */
@@ -293,7 +324,7 @@ footer{
 /* mobile device */
 /* header section started */
 @media screen and (max-width: 576px){
-    .nav-continer, .about, .video{
+    .nav-continer, .about, .gaming{
         flex-direction: column;
     }
     .about, .nav-continer{
@@ -330,7 +361,7 @@ footer{
         margin-bottom: 2px;
     }
 
-    .video{
+    .gaming{
         margin: 0px 120px;
     }
     /* section 2 */
