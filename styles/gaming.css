@@ -300,9 +300,6 @@ footer{
     .about, .nav-continer{
         gap: 10px;
         padding: 0px 120px;
-        /* justify-content: center; */
-        align-items: center;
-
     }
     .header-container{
         flex-direction: column-reverse;
@@ -337,5 +334,29 @@ footer{
     .video{
         margin: 0px 120px;
     }
+    /* section 2 */
+    .play{
+        flex-direction: column;
+        margin: 0px 120px;
+        gap: 20px;
+    }
+    .play-container{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .play-images img {
+        width: 250%;
+    }
+    .play-images2 img {
+        position: absolute;
+        width: 110%;
+        height: 50%;
+        left: -36px;
+        top: 130px;
+    }
+    /* section 2 finished */
+    /* section 3 */
+
+    
     
 }
