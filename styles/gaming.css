@@ -187,6 +187,7 @@ nav li{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
 
 }
 .play-images {
@@ -205,3 +206,29 @@ nav li{
 }
 /* section 2 finished */
 /* section 3 starting */
+.games-section{
+    max-width: 1160px;
+    min-height: 300px;
+    margin: 120px 240px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+}
+.games-name{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px;
+}
+.games-name:hover 
+    {
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+    cursor: pointer;
+    }
+/* section 3 finished */
+/* main section finished */
+/* footer section starting */
