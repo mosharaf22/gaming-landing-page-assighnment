@@ -286,3 +286,41 @@ footer{
     font-size: 16px;
     font-weight: 500;
 }
+
+/* finished footer section */
+/* finished body section */
+/* responsive layout */
+/* mobile device */
+/* header section started */
+@media screen and (max-width: 576px){
+    .nav-continer, .about{
+        flex-direction: column;
+    }
+    .about, .nav-continer{
+        gap: 10px;
+        padding: 0px 120px;
+
+    }
+    .header-container{
+        flex-direction: column-reverse;
+        margin: 0px 10px;
+    }
+    .banner-img{
+        width: 150%;
+    }
+    .head-info h1{
+        font-size: 48px;
+        margin-bottom: 10px; 
+    }
+    .head-info h3{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .btn-primary-1, .btn-primary-2{
+        font-size: 15px;
+        margin-bottom: 10px;
+        padding: 10px 5px;
+        
+    }
+    /* header section responsive finished */
+}
