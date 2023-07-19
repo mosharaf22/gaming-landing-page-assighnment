@@ -177,8 +177,8 @@ nav li{
 }
 .overlay{
     position: absolute;
-    width: 100%;
-    height: 76%;
+    width: 88%;
+    height: 66%;
     top: 0px;
     left: 0px;
     display: flex;
@@ -422,4 +422,21 @@ footer{
         align-content: center;
     }
     /* finished mobile device responsive */
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px)
+    {
+        .nav-continer, .header-container, .gaming{
+            flex-direction: column;
+        }
+        .header-container{
+            margin: 0px 40px;
+            gap: 40px;
+        }
+        .games-section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+        }
 }
