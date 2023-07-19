@@ -217,7 +217,6 @@ nav li{
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* gap: 5px; */
 }
 .games-name{
     display: flex;
@@ -357,6 +356,39 @@ footer{
     /* section 2 finished */
     /* section 3 */
 
-    
-    
+    .games-section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        justify-content: center;
+        align-content: center;
+        margin: 0px 120px;
+    }
+    .games-name img{
+        width: 20px;
+        height: 20px;
+    }
+    .games-name{
+        gap: 5px;
+        padding: 3px;
+    }
+    .games-name p{
+        font-size: 8px;
+    }
+    /* main section finished */
+    /* footer section */
+
+    footer{
+        padding: 20px 20px;
+    }
+    .our-story, .terms{
+        flex-wrap: wrap;
+    }
+    .social-sites{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+    }
+    /* finished mobile device responsive */
 }
